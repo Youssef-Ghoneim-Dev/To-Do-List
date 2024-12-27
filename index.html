@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <h1 id="hh">Simple To Do List</h1>
+    
+    <div id="inputContainer">
+        <input type="text" class="input" id="itemInput" placeholder="Enter item" oninput="bg()" required />
+        <button id="submitBtn">Add Item</button>
+    </div>
+    
+    <ul id="itemList">
+        <div id="list" class="listc">
+            <h1>lists:</h1>
+        </div>
+        <div id="comlist" class="comlistc">
+            <div>
+                <h1>completed lists:</h1>
+                <a onclick="removElement()">remove all lists form completed</a>
+            </div>
+        </div>
+    </ul>
+</body>
+
+</html>

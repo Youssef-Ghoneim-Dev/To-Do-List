@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: rgb(232, 230, 230);
+    color: #28a745;
+    font-size: 20px;
+}
+
+.p{
+    color: #eee;
+    font-size: 25px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.p1{
+    color: #85e485 !important;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    display: inline-block;
+}
+
+.rem div{
+    height: 3px;
+    width: 85%;
+    margin-left: 20px;
+    background-color: black;
+    position: absolute;
+}
+.rem{
+    filter: grayscale(5);
+}
+
+.listc {
+    max-width: 850px;
+    width: 850px;
+    min-height: 200px;
+}
+.listc h1 {
+    text-align: left;
+    font-size: 40px;
+}
+.listc li {
+    margin-top: 20px;
+}
+.comlistc {
+    max-width: 850px;
+    width: 850px;
+    min-height: 200px;
+}
+.comlistc h1 {
+    text-align: left;
+    font-size: 40px;
+}
+.comlistc li {
+    margin-top: 20px;
+}
+.comlistc div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#inputContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin: auto;
+    max-width: 1000px;
+}
+
+.input {
+    width: 500px;
+    padding: 10px;
+    margin-right: 10px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #28a745;
+    font-size: 20px;
+    transform: scale(1) !important;
+}
+
+.focus {
+    background-color: rgb(23, 142, 216) !important;
+    border: 2px solid rgb(0, 174, 255) !important;
+    transform: scale(1.2);
+}
+.focusb {
+    background-color: #28a745 !important;
+}
+
+.focus22 {
+    border: 1px solid rgb(23, 142, 216);
+}
+
+.input:focus {
+    border: 1px solid rgb(23, 142, 216);
+}
+
+button {
+    padding: 10px;
+    background-color: #28a745;
+    color: rgb(232, 230, 230);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: rgb(23, 142, 216);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    margin: auto;
+}
+
+li.item {
+    border-radius: 10px;
+    background-color: #28a745;
+    color: #eee;
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    gap: 10px;
+    max-width: 800px;
+    width: 800px;
+    transition: 1s;
+}
+
+button.edit {
+    background-color: rgb(23, 142, 216);
+    margin-left: auto;
+    width: 80px;
+    border-radius: 8px;
+    color: #eee;
+}
+button:hover.edit {
+    box-shadow: 0 0 1.2rem rgb(0, 174, 255);
+}
+
+button.delete {
+    background-color: #c70a1d;
+    border-radius: 8px;
+    width: 80px;
+    color: #eee;
+}
+
+button:hover.delete {
+    background-color: #ff0019;
+}
+
+a{
+    color: white;
+    background-color: rgb(23, 142, 216);
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+a:hover{
+    color: #28a745;
+    background-color: white;
+}
